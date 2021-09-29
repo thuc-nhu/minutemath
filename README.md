@@ -1,0 +1,2 @@
+# minutemath
+Simple Python Project
