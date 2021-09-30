@@ -42,7 +42,7 @@ while time.time() - startTime <= 60:
         print("Correct! {} seconds left!".format(int(
             60-(time.time() - startTime))))
     else:
-        print("Incorrect! {} seconds left!".format(int(
+        print("Incorrect! The correct answer is {}. {} seconds left!".format(ans, int(
             60-(time.time() - startTime))))
 
     percent = correctCounter / questionCounter * 100
